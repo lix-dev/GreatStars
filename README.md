@@ -9,6 +9,9 @@
 
 ## How to use
 
+1. Download or Clone the sources.
+2. Import jQuery library 
+3. Insert jQuery snippet to your document
 ```javascript
  $(document).ready(function() {
  
@@ -21,6 +24,12 @@
                             
   });
 ```
+4. Insert HTML snippet like this
+```html
+<div class="stars"></div>
+```
+
+Note: You can change the Class 'stars' to whatever you want
 
 ### Options
 | name | value           | default | description |
