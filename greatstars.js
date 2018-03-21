@@ -1,10 +1,9 @@
 /*!
  * GreatStars v 0.1
- * https://lixdev.de/greatstars/
+ * https://lixdev.de/
  *
- * Copyright by Lixdev Development 
+ * Copyright by Lixdev (Felix Gutzmann)
  * Released under the MIT license
- * https://lixdev.de/greatstars/license
  */
 (function($) {
 
