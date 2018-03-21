@@ -2,6 +2,7 @@
 
 > Create your own space with GreatStars
 
+![](https://lixdev.de/greatstars/greatstars.gif)
 
 ## Requirements
 * You need to include jQuery to use this Framework
