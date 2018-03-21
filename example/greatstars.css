@@ -1,0 +1,19 @@
+html,body {
+  position: relative;
+  height: 100%;
+	width: 100%;
+	background: #111;
+}
+body {
+  margin: 0;
+}
+.stars {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.star {
+  background: #fff;
+  border-radius: 100%;
+}
