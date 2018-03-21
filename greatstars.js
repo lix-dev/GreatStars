@@ -12,9 +12,8 @@
         this.stars = [];
 
         this.settings = {
-            number: 100, // Number of stars
+            number: 100,
             speed: 50,
-            starsWrapper: this[0],
             starClass: "star",
             direction: "up"
         };
@@ -45,7 +44,6 @@
         
         this.createStars = function() {
 
-            /* Create all stars */
             for(var i=0; i<this.settings.number; i++) {
 
                 var iClass = this.settings.starClass+" "+this.settings.starClass+"-"+(i+1);
@@ -116,8 +114,6 @@
         }, this.moveStars();
         
         return this;
-
     };
-
 
 })(jQuery);
