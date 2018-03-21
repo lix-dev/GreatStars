@@ -7,20 +7,10 @@
  */
 (function($) {
 
-    /**
-     * The great place
-     */
     $.fn.greatStars = function(obj) {
-        
-        /**
-         * define Stars array
-         */
+       
         this.stars = [];
 
-  
-        /**
-         * Default Settings
-         */
         this.settings = {
             number: 100, // Number of stars
             speed: 50,
@@ -29,10 +19,6 @@
             direction: "up"
         };
 
-
-        /**
-         * Update Settings from query object
-         */
         this.updateSettings = function(obj) {
 
             if(Object.keys(obj).length > 0) {
@@ -46,10 +32,6 @@
 
         }, this.updateSettings(obj);     
 
-
-        /**
-         * Random int range
-         */
         this.rndIntRange = function(von, bis) {
 
             var num, rnd, res;
@@ -61,9 +43,6 @@
             return res;
         }
         
-        /**
-         * Create single star and set on random position
-         */
         this.createStars = function() {
 
             /* Create all stars */
@@ -99,10 +78,6 @@
             }
         }, this.createStars();
         
-        
-        /**
-         * Move stars around
-         */
         this.moveStars = function() {
                 
             for(var i=0; i < this.stars.length; i++) {
@@ -138,13 +113,8 @@
                 self.moveStars();
             },this.settings.speed);
                 
-        }
-        this.moveStars();
+        }, this.moveStars();
         
-
-        /**
-         * RETURN OBJECT
-         */
         return this;
 
     };
