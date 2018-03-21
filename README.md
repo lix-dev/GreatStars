@@ -29,7 +29,7 @@
 <div class="stars"></div>
 ```
 
-Note: You can change the Class 'stars' to whatever you want
+Note: You can change the class 'stars' to whatever you want
 
 ### Options
 | name | value           | default | description |
