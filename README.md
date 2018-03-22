@@ -4,6 +4,8 @@
 
 ![](https://lixdev.de/greatstars/greatstars.gif)
 
+PREVIEW: [here](https://lix-dev.github.io/GreatStars/index.html)
+
 ## Requirements
 * You need to include jQuery to use this Framework
 
