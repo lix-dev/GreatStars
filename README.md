@@ -10,7 +10,7 @@
 
 ## How to use
 
-1. Download or Clone the sources.
+1. Download or clone the git.
 2. Import jQuery library 
 3. Insert jQuery snippet to your document
 ```javascript
@@ -32,7 +32,7 @@
 
 Note: You can change the class 'stars' to whatever you want
 
-### Options
+## Options
 | name | value           | default | description |
 |------|-----------------|---------|-------------|
 | number | `100` | 100 | Set the number of stars wich will generated (not more than 200 recommended) |
