@@ -86,7 +86,7 @@
 
                     if(this.stars[i].top < 0) {
                         this.stars[i].top = $(this).height() + 20;
-                        this.stars[i].left = rndIntRange(0, this.widht()); 
+                        this.stars[i].left = this.rndIntRange(0, this.width()); 
                     } else {
                         this.stars[i].top = this.stars[i].top - 1;
                     }
